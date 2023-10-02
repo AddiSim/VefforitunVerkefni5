@@ -1,116 +1,149 @@
 <!DOCTYPE html>
 <html lang="is">
-  <head>
-    <meta charset="utf-8" />
-    <title>Verkefni 4 — Lorem ipsum land</title>
-    <link
-      rel="icon"
-      href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>&lt;text y=%22.9em%22 font-size=%2290%22>⭐️&lt;/text>&lt;/svg>"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header">
-    <div class="hero-image">
-      <div class="hero-text">
-      <h1>Lorem ipsum land</h1>
-      <p>Allt það lorem ipsum sem þig hefur dreymt um!</p>
-      <div class="header-button">
-      <p><a href="#lorem-ipsum" class="button">Skoða lorem ipsum</a></p>
+
+<head>
+  <meta charset="utf-8">
+  <title>Veitingastaðurinn</title>
+  <link rel="stylesheet" href="./styles.css">
+  <meta name="description" content="Forsíða Veitingastaðsins, veitingastaður með allar þær veitingar sem þig vantar.">
+  <meta property="og:title" content="Veitingastaðurinn">
+  <meta property="og:description" content="Velkomin á Veitingastaðinn!">
+  <meta property="og:image" content="./myndir/sharing.jpg">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <header>
+        <h1>Veitingastaðurinn</h1>
+        <p>Á Veitingastaðnum hugsum við vel um þig og gefum þér gott að borða.</p>
+      </header>
+
+      <p class="sr-only"><a href="#efni">Beint í efni</a></p>
+
+      <nav class="navigation">
+        <ul>
+          <li><strong>Forsíða</strong></li>
+          <li><a href="sidur/um.html">Um Veitingastaðinn</a></li>
+          <li><a href="sidur/matsedill.html">Matseðill</a></li>
+          <li><a href="sidur/pontun.html">Pöntunarsíða</a></li>
+        </ul>
+      </nav>
     </div>
-  </div>
-      <div class="protection"></div>
-    </div>
-    </header>
 
-    <main id="lorem-ipsum">
-      <section class="info">
-        <div class="kicker">Uppruni</div>
-        <h2>Hvaðan kemur lorem ipsum?</h2>
-        <p>
-          Lorem ipsum er texti sem er skemmd útgáfa af latneskum texta sem hefur verið notuð síðan
-          a.m.k. 1960.
-        </p>
-        <p><a href="#lorem-ipsum" class="button">Lesa nánar</a></p>
+    <main class="main" id="efni">
+      <div class="boxes">
+        <section class="box">
+          <h3 class="title">Opnunartími</h3>
+          <div class="content">
+            <dl>
+              <dt>Mánudaga til fimmtudaga</dt>
+              <dd>09:00–18:00</dd>
+              <dt>Föstudaga</dt>
+              <dd>10:00–22:00</dd>
+              <dt>Laugardaga</dt>
+              <dd>11:00–22:00</dd>
+              <dt>Sunnudaga</dt>
+              <dd>Lokað</dd>
+            </dl>
+          </div>
+        </section>
 
-        <img src="myndir/info1.jpg" alt="" />
-      </section>
+        <section class="box">
+          <h3 class="title">Um okkur</h3>
+          <div class="content">
+            <p>Við erum hresst fólk sem útbýr mat alla daga nema sunnudaga.</p>
+          </div>
+          <a class="link button" href="./sidur/um.html">Lesa meira um okkur</a>
+        </section>
 
-      <section class="info">
-        <div class="kicker">Ástæða</div>
-        <h2>Hverjir nota lorem ipsum?</h2>
-        <p>
-          Þegar við vinnum útlit þurfum við oft að hafa mikið af texta til þess að sjá hvernig það
-          mun haga sér. Þá er oft ekki búið að semja lokatextann og er þá lorem ipsum notað.
-        </p>
-        <p><a href="#lorem-ipsum" class="button">Lesa nánar</a></p>
+        <section class="box">
+          <h3 class="title">Matseðill</h3>
+          <div class="content">
+            <p>Skoðaðu matseðilinn okkar!</p>
+          </div>
+          <a class="link button" href="./sidur/matsedill.html">Skoða matseðilinn</a>
+        </section>
 
-        <img src="myndir/info2.jpg" alt="" />
-      </section>
+        <section class="box">
+          <h3 class="title">Panta</h3>
+          <div class="content">
+            <p>Pantaðu borð eða mat heim til þín!</p>
+          </div>
+          <a class="link button" href="./sidur/pontun.html">Senda inn pöntun</a>
+        </section>
+      </div>
 
-      <section class="examples">
-        <h2>Dæmi um Lorem Ipsum</h2>
+      <section class="popular">
+        <h2>Vinsælir réttir</h2>
 
-        <div class="cards">
-          <section class="card">
-            <h3>Pirate ipsum</h3>
-            <p>
-              Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace
-              holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl.
-            </p>
-
-            <a href="https://pirateipsum.me/" target="_blank" class="button">Nota pirate ipsum</a>
-            <a href="#" class="button button-secondary">Læra meira</a>
-
-            <img src="myndir/mynd1.jpg" alt="" />
-          </section>
-
-          <section class="card">
-            <h3>Cat ipsum</h3>
-            <p>Small kitty warm kitty little balls of fur. Making bread on the bathrobe fight</p>
-
-            <a href="https://catipsum.com/" target="_blank" class="button">Nota cat ipsum</a>
-            <a href="#" class="button button-secondary">Læra meira</a>
-
-            <img src="myndir/mynd2.jpg" alt="" />
-          </section>
-
-          <section class="card">
-            <h3>Cup cake ipsum</h3>
-            <p>
-              Chocolate bar candy canes jelly-o bonbon biscuit ice cream. Tootsie roll chocolate
-              candy cheesecake cake sweet apple pie sweet roll marzipan. Ice cream gummies jelly
-              biscuit dessert marshmallow.
-            </p>
-
-            <a href="http://www.cupcakeipsum.com/" target="_blank" class="button"
-              >Nota cup cake ipsum</a
-            >
-            <a href="#" class="button button-secondary">Læra meira</a>
-
-            <img src="myndir/mynd3.jpg" alt="" />
-          </section>
-
-          <section class="card">
-            <h3>Zombie ipsum</h3>
-            <p>
-              Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne
-              lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia?
-            </p>
-
-            <a href="http://www.zombieipsum.com/" target="_blank" class="button"
-              >Nota zombie ipsum</a
-            >
-            <a href="#" class="button button-secondary">Læra meira</a>
-
-            <img src="myndir/mynd4.jpg" alt="" />
-          </section>
-        </div>
+        <ul class="boxes">
+          <li class="box">
+            <h3 class="title">Súpa dagsins</h3>
+            <div class="content">
+              <p>Daglega ný súpa</p>
+              <p>2.100 kr.-</p>
+            </div>
+            <a class="link button" href="./sidur/panta.html">Panta</a>
+          </li>
+          <li class="box">
+            <h3 class="title">Lasagna</h3>
+            <div class="content">
+              <p>Lasagna með fersku salati</p>
+              <p>2.500 kr.-</p>
+            </div>
+            <a class="link button" href="./sidur/panta.html">Panta</a>
+          </li>
+          <li class="box">
+            <h3 class="title">Pizza</h3>
+            <div class="content">
+              <p>Klassísk pizza</p>
+              <p>2.000 kr.-</p>
+            </div>
+            <a class="link button" href="./sidur/panta.html">Panta</a>
+          </li>
+          <li class="box">
+            <h3 class="title">Hamborgari</h3>
+            <div class="content">
+              <p>Hamborgari með frönskum kartöflum</p>
+              <p>2.500 kr.-</p>
+            </div>
+            <a class="link button" href="./sidur/panta.html">Panta</a>
+          </li>
+        </ul>
+        <p><a class="button" href="./sidur/matsedill.html">Skoða matseðil</a> <a class="button" href="./sidur/panta.html">Panta Mat</a>.</p>
       </section>
     </main>
 
-    <footer>
-      <p>© Lorem ipsum land</p>
+    <footer class="footer">
+      <section>
+        <h2>Opnunartími</h2>
+        <dl>
+          <dt>Mánudaga til fimmtudaga</dt>
+          <dd>09:00–18:00</dd>
+          <dt>Föstudaga</dt>
+          <dd>10:00–22:00</dd>
+          <dt>Laugardaga</dt>
+          <dd>11:00–22:00</dd>
+          <dt>Sunnudaga</dt>
+          <dd>Lokað</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Hér erum við</h2>
+        <ul>
+          <li>Veitingastaðurinn ehf.</li>
+          <li>Aðalgata 10</li>
+          <li>100 Reykjavík</li>
+          <li><a href="tel:3334567">Sími 333-4567</a></li>
+          <li>
+            <a href="mailto:veitingastadur@example.org">veitingastadur@example.org</a>
+          </li>
+        </ul>
+      </section>
     </footer>
-  </body>
+  </div>
+</body>
+
 </html>
